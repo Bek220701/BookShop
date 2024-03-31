@@ -1,0 +1,49 @@
+#product {
+  padding: 30px 0;
+  .card--block {
+    position: relative;
+    img {
+      padding: 10px 20px;
+      width: 300px;
+      height: 400px;
+    }
+    margin-top: 20px;
+    width: 300px;
+    height: 550px;
+    background: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 2px 15px 17px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 15px 17px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 2px 15px 17px rgba(34, 60, 80, 0.2);
+
+    &__price {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 5px 0;
+      h2 {
+        font-size: 26px;
+        font-weight: 700;
+        margin-left: 20px;
+      }
+      a {
+        font-size: 25px;
+        font-weight: 700;
+        margin-right: 20px;
+      }
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+    button {
+      position: absolute;
+      bottom: 20px;
+      right: 17px;
+      font-size: 25px;
+      margin-left: 250px;
+    }
+  }
+}

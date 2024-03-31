@@ -1,0 +1,30 @@
+#detalis {
+  position: relative;
+  padding: 50px 0;
+  .detalis {
+    display: flex;
+    align-items: flex-start;
+    .img-url {
+      object-fit: cover;
+      width: 280px;
+      height: 400px;
+      border: 1px double black;
+      border-radius: 10px;
+    }
+    &--text {
+      margin-left: 30px;
+      h1 {
+        font-size: 22px;
+        font-weight: 700;
+        span {
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+      .more {
+        font-size: 22px;
+        color: blue;
+      }
+    }
+  }
+}

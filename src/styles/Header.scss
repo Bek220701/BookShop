@@ -1,0 +1,115 @@
+#header {
+    position: relative;
+    padding: 30px 0;
+    background: rgb(17, 17, 96);
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &--top{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .icons{
+          h1{
+            font-size: 28px;
+            color: white;
+          }
+        }
+      img{
+        transform: scale(1.1);
+      }
+    }
+      &--nav {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        input {
+          position: relative;
+          padding: 10px;
+          width: 350px;
+          height: 40px;
+          border: 2px solid rgb(17, 17, 96);
+          border-radius: 8px;
+          text-align: center;
+          font-size: 20px;
+          border: none;
+          outline: none;
+          margin-right: 5px;
+        }
+        input:hover{
+          transform: scale(1.1);
+          border: 2px solid black;
+        }
+        .inpBtn{
+            width: 90px;
+            height: 40px;
+            color: white;
+            background:  rgb(17, 17, 96);
+            border: 2px solid white;
+            border-radius:8px ;
+            text-transform: uppercase;
+
+        }
+        .inpBtn:active{
+            border: 2px solid green;
+            color: chartreuse;
+            transform: scale(1.1);
+        }
+        h4{
+          position: absolute;
+          top: 10px;
+          right: 280px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 20px;
+          width: 20px;
+          color: white;
+          background:red;
+          border-radius: 50%;
+        }
+        h3 {
+          font-size: 22px;
+          position: absolute;
+          color: gray;
+          top: 45px;
+          right: 500px;
+        }
+        .sele{
+        width: 70px;
+        height: 30px;
+        font-size: 18px;
+        border-radius:5px ;
+        color: white;
+        background: rgb(17, 17, 96);
+        border: 2px solid white;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column-reverse;
+          color: white;
+          text-align: center;
+          font-size: 20px;
+        }
+
+        a:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #ffffffb1;
+      min-height: 100vh;
+      backdrop-filter: blur(4px);
+      z-index: 5;
+    }
+  }
+  

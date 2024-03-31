@@ -1,0 +1,23 @@
+@import "../src/styles/Header.scss";
+@import "../src/styles/Hero.scss";
+@import "../src/styles/Admin.scss";
+@import "../src/styles/Addproduct.scss";
+@import "../src/styles/ProductCard.scss";
+@import "../src/styles/DetalisProduct.scss";
+@import "../src/styles/Category.scss";
+@import "../src/styles/Review.scss";
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
